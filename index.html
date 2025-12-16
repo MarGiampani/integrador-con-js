@@ -1,0 +1,219 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glow</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/mediaqueries.css" />
+    <link rel="stylesheet" href="./assets/animaciones.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/glow logo.png" alt="logo Glow" class="logo" />
+      <nav class="navbar">
+        <label for="menu-toggle" class="menu-label">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu-toggle" />
+
+        <ul class="navbar-list">
+          <li><a href="#hero">INICIO</a></li>
+          <li><a href="#beneficios">BENEFICIOS</a></li>
+          <li><a href="#modelos">MODELOS</a></li>
+          <li><a href="#personalizadas">PERSONALIZADAS</a></li>
+          <li><a href="./register.html">REGISTRATE</a></li>
+          <li>
+            <a href="./login.html"><button class="acceder">ACCEDER</button></a>
+          </li>
+        </ul>
+
+        <label for="cart-toggle" class="cart-label">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </label>
+        <input type="checkbox" id="cart-toggle" />
+
+        <div class="cart">
+          <h3>Tus invitaciones</h3>
+          <div class="compras">
+            <div class="compra">
+              <img class="cart-img" src="./assets/dragonball.png" alt="dbz" />
+              <div class="cart-info">
+                <h3 class="cart-item">Invitación Dragon Ball</h3>
+                <span class="price">$1300</span>
+              </div>
+            </div>
+            <!-- <div class="compra">
+            <img class="cart-img" src="./assets/naruto.png" alt="dbz" />
+            <div class="cart-info">
+              <h3 class="cart-item">Invitación Naruto</h3>
+              <span class="price">$1300</span>
+            </div>
+          </div> -->
+          </div>
+
+          <p class="subtotal">Subtotal: $1300</p>
+          <button class="ver-carrito">Ver carrito</button>
+          <button class="finalizar">Finalizar compra</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="hero-container">
+          <div class="hero-info">
+            <h1>Invitá <span class="con-onda">con onda!</span></h1>
+            <p>
+              Sorprendé a tus invitados con una video-invitación personalizada
+              para tu evento. Enviá al mismo tiempo, sin tener que recorrer e
+              imprimir. Ganá tiempo, evitá transportes e innová invitando
+              digital!
+            </p>
+            <a href="#modelos"><button class="button1">EXPLORAR</button></a>
+          </div>
+          <div class="hero-img">
+            <img src="./assets/mockup1.png" alt="glow" class="mockup" />
+          </div>
+        </div>
+      </section>
+      <section id="beneficios">
+        <div class="contenedorBeneficios">
+          <div class="beneficio">
+            <i class="fa-brands fa-pagelines"></i>
+            <h2 class="NombreBeneficio">Ecológico</h2>
+            <p class="DescripcionBeneficio">
+              Invitar digitar ahorra el uso inncesario de papel contribuyendo al
+              cuidado de nuestro planeta
+            </p>
+          </div>
+          <div class="beneficio">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <h2 class="NombreBeneficio">Rápido</h2>
+            <p class="DescripcionBeneficio">
+              Tu invitación lista en un plazo de 24/48 hs para comenzar a
+              reenviar!
+            </p>
+          </div>
+          <div class="beneficio">
+            <i class="fa-regular fa-calendar-check"></i>
+            <h2 class="NombreBeneficio">Interactivo</h2>
+            <p class="DescripcionBeneficio">
+              Enviá la información de tu evento y recibí la confirmación en el
+              mismo lugar
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="modelos">
+        <h2>MODELOS</h2>
+        <div class="products-container">
+          <div class="product">
+            <img class="product-img" src="./assets/dragonball.png" alt="dbz" />
+            <div class="product-info">
+              <p class="categoria">Cumpleaños infantiles</p>
+              <h3 class="product-name">Dragon Ball</h3>
+              <span class="product-price">$1300</span>
+              <button class="add">AGREGAR</button>
+            </div>
+          </div>
+
+          <div class="product">
+            <img class="product-img" src=./assets/mikecrack.png alt="mikecrack"
+            />
+            <div class="product-info">
+              <p class="categoria">Cumpleaños infantiles</p>
+              <h3 class="product-name">Mikecrack</h3>
+              <span class="product-price">$1300</span>
+              <button class="add">AGREGAR</button>
+            </div>
+          </div>
+
+          <div class="product">
+            <img class="product-img" src=./assets/boda.png alt="boda" />
+            <div class="product-info">
+              <p class="categoria">Bodas</p>
+              <h3 class="product-name">Boda Greenery</h3>
+              <span class="product-price">$1650</span>
+              <button class="add">AGREGAR</button>
+            </div>
+          </div>
+
+          <div class="product">
+            <img class="product-img" src=./assets/naruto.png alt="naruto" />
+            <div class="product-info">
+              <p class="categoria">Cumpleaños infantiles</p>
+              <h3 class="product-name">Naruto</h3>
+              <span class="product-price">$1300</span>
+              <button class="add">AGREGAR</button>
+            </div>
+          </div>
+        </div>
+        <span class="ver-mas">Ver más</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </section>
+      <section id="personalizadas">
+        <div class="contenedor-formulario">
+          <p class="personalizado">
+            Si no encontraste la temática que buscabas, contactanos para diseñar
+            tu invitación 100% personalizada!
+          </p>
+          <form class="formulario">
+            <label for="Nombre"> Nombre:</label>
+            <input type="text" id="Nombre" placeholder="Tu nombre" />
+            <label for="Motivo"> ¿Qué motivo buscás? </label>
+            <input
+              type="text"
+              id="Motivo"
+              placeholder="Temática que estás buscando"
+            />
+            <label for="Detalles"> ¿Cómo te gustaría que sea?</label>
+            <input
+              type="text"
+              id="Detalles"
+              placeholder="Dejanos más detalles"
+            />
+            <label for="E-mail"> E-mail</label>
+            <input type="email" id="E-mail" placeholder="Ingresá tu mail" />
+            <input type="submit" value="ENVIAR" class="button1" />
+          </form>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-links">
+          <ul class="lista-categorias">
+            <li>Cumpleaños infantiles</li>
+            <li>Bodas</li>
+            <li>Religiosos</li>
+            <li>15 años</li>
+          </ul>
+          <ul class="contacto">
+            <li><span class="Contactanos">Contactanos</span></li>
+            <li>+549 3413 700 533</li>
+            <li>glow.invitaciones@gmail.com</li>
+          </ul>
+          <ul class="redes">
+            <li><span class="seguinos">Seguinos</span></li>
+            <li>Instagram</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+        <img
+          class="logo-footer"
+          src="./assets/glow logo blanco.png"
+          alt="logo-glow"
+        />
+        <p>Glow Invitaciones | 2022</p>
+      </footer>
+    </main>
+  </body>
+</html>
